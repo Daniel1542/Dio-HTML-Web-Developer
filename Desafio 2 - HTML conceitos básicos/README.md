@@ -1,7 +1,7 @@
 
 ## Desafio 2
 
-Fiz paginas com Html e CSS.
+Fiz páginas com Html e CSS.
 
 ### Recursos Principais
 

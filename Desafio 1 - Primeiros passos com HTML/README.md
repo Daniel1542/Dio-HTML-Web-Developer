@@ -1,7 +1,7 @@
 
 ## Desafio 1
 
-Fiz paginas com Html puro.
+Fiz páginas com Html puro.
 
 ### Recursos Principais
 

@@ -12,6 +12,7 @@ Repositório com os desafios.
 ### Recursos Principais
 
 - HTML
+- CSS
 
 ## Contribuição
 
