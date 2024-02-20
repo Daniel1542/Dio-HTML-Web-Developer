@@ -1,11 +1,12 @@
 
-## Desafio 1
+## Desafio 2
 
-Fiz paginas com Html puro.
+Fiz paginas com Html e CSS.
 
 ### Recursos Principais
 
 - HTML
+- CSS
 
 ## Contribuição
 

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<style>
+    img{
+        width: 250px;
+    } 
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;    
+    }
+
+    th, td {
+        border: 2px solid #dddddd;
+        text-align: center;
+        padding: 8px;    
+    }
+
+    th {
+        background-color: #be3838;
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    
+</style>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="template.html">Página principal</a></li>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+                <li><a href="hora.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="imagens/hora.jfif"  alt="Foto de dois médicos">          
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <h1>Nossos serviços</h1>
+                <p>Nós temos diversos serviços para sua saúde.</p>
+                <table summary="Tabela de serviços">
+                    <tr>
+                        <th>Serviços</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábados</th>
+                        <th>Feriados</th>
+                    </tr>
+                    <tr>
+                        <td>Clínica geral</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Psicologia</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Pediatria</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 18h</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Oftalmologia</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 18h</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </div>
+    
+            <div class="footer">                
+                <!-- Aqui vai o seu rodapé -->
+                <p>&copy; 2024 Clínica Geral. Todos os direitos reservados.</p>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>

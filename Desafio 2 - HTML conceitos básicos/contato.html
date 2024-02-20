@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<style>
+    .img_cont{
+        width: 300px;
+    }
+    .map_div{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        gap: 10px;
+
+    }
+    .content_cont{
+        display: flex;
+        justify-content: center;
+        
+        background-color: rgb(214, 91, 91);
+        min-height: 300px;
+        padding: 20px;
+
+    }
+    form{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        width: 250px;
+    }
+    .Enviar{
+        background-color: rgb(160, 236, 36);
+        border-radius: 10%;
+    }
+    .Resetar{
+        background-color: rgb(167, 9, 9); 
+        border-radius: 10%;
+    }
+    textarea{
+        width: 250px;
+        height: 80px;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="template.html">Página principal</a></li>
+                <li><a href="sobre.html">Sobre a clínica</a></li>
+                <li><a href="hora.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img class="img_cont" src="imagens/contato.jfif" alt="Imagem de contato">
+            </div>
+    
+            <div class="content_cont">
+                <!-- Aqui vai o seu conteúdo -->
+                <div>
+                    <p>Telefone: 75 98517 2033</p>
+                    <p>Endereço: Rua Maltes, número 1, Valença, Bahia, Cep 45 400 000</p>
+                    <form action="#">
+                        <label for="Nome">Nome:</label>
+                        <input type="text">
+                        <label for="Email">Email:</label>
+                        <input type="email">
+                        <label for="Assunto">Assunto :</label>
+                        <input type="text">
+                        <label for="Mensagem">Mensagem :</label>
+                        <textarea name="Mensagem " id="Mensagem "></textarea>
+                        <div>
+                            <button class="Enviar" type="reset">Enviar</button>
+                            <button class="Resetar"type="reset">Resetar Formulário</button>
+                        </div>                       
+                    </form>
+                </div>  
+                <div class="map_div">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1940.8204769441263!2d-39.05968216497345!3d-13.372587612084489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1708393032848!5m2!1spt-BR!2sbr" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <p>&copy; 2024 Clínica Geral. Todos os direitos reservados.</p>   
+            </div>
+        </div>
+    </div>
+</body>
+</html>
