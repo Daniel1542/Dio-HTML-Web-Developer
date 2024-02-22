@@ -1,0 +1,101 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; 
+    padding-left: 5px;
+
+}
+.header{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+section{
+    margin-bottom: 80px;
+}
+
+article{
+    border-top: 2px solid #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.elenco_lista{
+    list-style: circle;
+    margin-left: 15px;
+}
+.artigo2{
+    border-top: 1px solid #cdcdcd;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;    
+}
+
+th, td {
+    border: 2px solid #dddddd;
+    text-align: center;
+    padding: 8px;    
+}
+
+th {
+    background-color: #d39090;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #d6b9b9;
+}
+
+.footer {
+    min-height: 100px;
+    background-color: aquamarine;
+    color: rgb(43, 43, 11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    display: flex;
+    flex-direction: column;
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+    align-items: center;
+}
+.sidebar_section{
+    display: flex;
+    border-right: solid 1px #cdcdcd;
+    justify-content: center;
+
+}
+.video{
+    margin-top: 50px;
+}
+.hidden {
+    display: none;
+}
+figure {
+    text-align: center;
+}
